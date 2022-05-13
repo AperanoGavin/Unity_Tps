@@ -1,0 +1,632 @@
+Unity Editor version:    2021.3.2f1 (d6360bedb9a0)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.3 (Build 21E230)
+Darwin version:          21.4.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/gaveen/My project (3) 2
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+63950
+Successfully changed project path to: /Users/gaveen/My project (3) 2
+/Users/gaveen/My project (3) 2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 52.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/gaveen/My project (3) 2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001291 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 43.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.354 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1355ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (981ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (133ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (669ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (447ms)
+				ProcessInitializeOnLoadMethodAttributes (156ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004590 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 51.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.817 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2819ms)
+		BeginReloadAssembly (231ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (35ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (2235ms)
+			LoadAssemblies (139ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (1552ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (1251ms)
+				ProcessInitializeOnLoadMethodAttributes (130ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2629 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 138 unused Assets / (182.6 KB). Loaded Objects now: 3106.
+Memory consumption went from 249.2 MB to 249.0 MB.
+Total: 3.893916 ms (FindLiveObjects: 0.203541 ms CreateObjectMapping: 0.063125 ms MarkObjects: 3.380333 ms  DeleteObjects: 0.245166 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1364029.666501 seconds.
+  path: Assets/FPS KIT 3D/Prefabs/RobotAmi.prefab
+  artifactKey: Guid(c42002b9b2b94bf44a7a8fd7fc562ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Prefabs/RobotAmi.prefab using Guid(c42002b9b2b94bf44a7a8fd7fc562ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98a5fd57ee76fd9e8c1248e547bbc1e') in 0.990749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/FPS KIT 3D/Materials/Black.mat
+  artifactKey: Guid(2299e5a87cfc48f4c95cc81de32e0edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Materials/Black.mat using Guid(2299e5a87cfc48f4c95cc81de32e0edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8507c2b06ab1254d380a60609ee38ec8') in 0.129562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.000654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/FPS KIT 3D/Materials/Blue.mat
+  artifactKey: Guid(16cc44c08aef46c4fa8cef37d9c804dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Materials/Blue.mat using Guid(16cc44c08aef46c4fa8cef37d9c804dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e522d519d92461fb82f1d5da65ecf16') in 0.010908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/FPS KIT 3D/Prefabs/Spikes.prefab
+  artifactKey: Guid(24ecd6bda8f03bf4ebcd3fd6e541db34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Prefabs/Spikes.prefab using Guid(24ecd6bda8f03bf4ebcd3fd6e541db34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238dda0d0365c5de8faf144c06ca89ea') in 0.009948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/FPS KIT 3D/Materials/Projectile.mat
+  artifactKey: Guid(e6be023cdd7321749b416247f87f852a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Materials/Projectile.mat using Guid(e6be023cdd7321749b416247f87f852a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26bad0e0c0e6186c0269c82600392aa') in 0.006637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/FPS KIT 3D/Models/Crate.fbx
+  artifactKey: Guid(9059d2c234300394f971abcea04a59f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Models/Crate.fbx using Guid(9059d2c234300394f971abcea04a59f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4971879869eb65da9be06c2e12d7b9f') in 0.133001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/FPS KIT 3D/Materials/White.mat
+  artifactKey: Guid(86aae67b4b81a1a468cc37cbeba7dd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Materials/White.mat using Guid(86aae67b4b81a1a468cc37cbeba7dd74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77636baf0c87c44add002f41793ca82') in 0.008773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/FPS KIT 3D/Prefabs/Health.prefab
+  artifactKey: Guid(06ae3652b0600c042926d001ac4caee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Prefabs/Health.prefab using Guid(06ae3652b0600c042926d001ac4caee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f65bb7eb71ba3beae4397ffc7cbca4a') in 0.007900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/FPS KIT 3D/Prefabs/Key.prefab
+  artifactKey: Guid(05b843343200e2042b3e42f4802fa6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Prefabs/Key.prefab using Guid(05b843343200e2042b3e42f4802fa6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657650411db17bd1a8fc8cd475a35368') in 0.007419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/FPS KIT 3D/Materials/Metal.mat
+  artifactKey: Guid(572f54ae9a6cfaa4ba6b00472e224bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Materials/Metal.mat using Guid(572f54ae9a6cfaa4ba6b00472e224bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951f02fec82b79fafbdf832ba7c9b8e1') in 0.006731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/FPS KIT 3D/Models/RobotAmi.fbx
+  artifactKey: Guid(aa4e6ae7df77adf4097668af00c05902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Models/RobotAmi.fbx using Guid(aa4e6ae7df77adf4097668af00c05902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f9019b25553c7f689d04d0c43fca05') in 0.043367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/FPS KIT 3D/Materials/Projectile2.mat
+  artifactKey: Guid(3550113b48722b54b81a6a0842faf760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Materials/Projectile2.mat using Guid(3550113b48722b54b81a6a0842faf760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e239da5db3fcdc76aea22da2e09e63e') in 0.007280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/FPS KIT 3D/Models/Turret.fbx
+  artifactKey: Guid(eaf32e4a87925dc45a05dd7ef92f3b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Models/Turret.fbx using Guid(eaf32e4a87925dc45a05dd7ef92f3b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3f2d6b1a11649b06fea8affa8f86ba6') in 0.026978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/FPS KIT 3D/Prefabs/Pistol.prefab
+  artifactKey: Guid(3972da5a1af012e4e998650366005490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Prefabs/Pistol.prefab using Guid(3972da5a1af012e4e998650366005490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ef4604380f8813ff3084375a9d5c3c') in 0.008379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/FPS KIT 3D/Prefabs/Robot.prefab
+  artifactKey: Guid(957d35f103d88e24bb1833a48ed09b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Prefabs/Robot.prefab using Guid(957d35f103d88e24bb1833a48ed09b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51a8dd26bee6112d402325dca3c8a4c') in 0.011335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/FPS KIT 3D/Prefabs/Barrel.prefab
+  artifactKey: Guid(5ccb076cb2e6c73489aba27697a37c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Prefabs/Barrel.prefab using Guid(5ccb076cb2e6c73489aba27697a37c5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bb8e7a439b22237d9373d2492f4b29') in 0.007819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/FPS KIT 3D/Models/Health.fbx
+  artifactKey: Guid(bc35794becf0aeb4daf0b0c642ffd8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Models/Health.fbx using Guid(bc35794becf0aeb4daf0b0c642ffd8f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d596e3a839c4353b35db01012f3498f') in 0.025530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/FPS KIT 3D/Materials/Yellow 2.mat
+  artifactKey: Guid(5046dda6bcf7efa449fdab7095161771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Materials/Yellow 2.mat using Guid(5046dda6bcf7efa449fdab7095161771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51e7fb9c2ccf1aa72ea3accaec60e3e') in 0.007988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000927 seconds.
+  path: Assets/FPS KIT 3D/Prefabs/Balle.prefab
+  artifactKey: Guid(2fd5476994e163d4995b7fa2c86de6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Prefabs/Balle.prefab using Guid(2fd5476994e163d4995b7fa2c86de6f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7d7566a321e91a0f3f0c94edd3199fb') in 0.008456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/FPS KIT 3D/Prefabs/Rifle.prefab
+  artifactKey: Guid(e9bc0e16e906ac04d8e0a4a75eb140c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Prefabs/Rifle.prefab using Guid(e9bc0e16e906ac04d8e0a4a75eb140c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf6831527a752af7c28ad9d523d75372') in 0.009057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/FPS KIT 3D/Models/Barrel.fbx
+  artifactKey: Guid(72fe5a28b87687b4fa1c46eac8b3ccc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Models/Barrel.fbx using Guid(72fe5a28b87687b4fa1c46eac8b3ccc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a39ca239ac8b4c54295f13b91d2a054') in 0.016044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007456 seconds.
+  path: Assets/FPS KIT 3D/Prefabs/BalleTourelle.prefab
+  artifactKey: Guid(09fe770490ecf6748a9520dafc363392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Prefabs/BalleTourelle.prefab using Guid(09fe770490ecf6748a9520dafc363392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb9d15e89ffa68ce030bd912ee46d2a') in 0.008079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/FPS KIT 3D/Models/Spikes.fbx
+  artifactKey: Guid(51c545f964d45fc4e8fc7a476060825d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Models/Spikes.fbx using Guid(51c545f964d45fc4e8fc7a476060825d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276cf32f7eb239eb014b7d73b249cacb') in 0.013877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037703 seconds.
+  path: Assets/FPS KIT 3D/Models/Pistol.fbx
+  artifactKey: Guid(80b75712e3143ba4ab80aa87cdb95d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Models/Pistol.fbx using Guid(80b75712e3143ba4ab80aa87cdb95d85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de9f8c1a097cab4bfe4fddbb816ae6e') in 0.020887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016839 seconds.
+  path: Assets/FPS KIT 3D/Models/Key.fbx
+  artifactKey: Guid(373859fa32c557441a608393ff9fddc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Models/Key.fbx using Guid(373859fa32c557441a608393ff9fddc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe656dc574de92049a2281046019daae') in 0.015989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/FPS KIT 3D/Materials/Yellow.mat
+  artifactKey: Guid(6425d5bad0af5d94e8a5d77a35500eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Materials/Yellow.mat using Guid(6425d5bad0af5d94e8a5d77a35500eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d67497939fe04eb51479cab7c144e9') in 0.008036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/FPS KIT 3D/Materials/Metal 2.mat
+  artifactKey: Guid(dddb0f8cfbee99542adfe2ebd2c037d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Materials/Metal 2.mat using Guid(dddb0f8cfbee99542adfe2ebd2c037d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8dce8a0c659d773b487ff8e48977dfe') in 0.011414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/FPS KIT 3D/Materials/plan-niveau.mat
+  artifactKey: Guid(88485ec43e6444840b1c78ef2dbf9ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Materials/plan-niveau.mat using Guid(88485ec43e6444840b1c78ef2dbf9ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8aa85eb8a4cb9baea87a0b5720537d') in 0.263448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/FPS KIT 3D/Materials/Red.mat
+  artifactKey: Guid(390fd25d45d40a248a450dd09010c6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Materials/Red.mat using Guid(390fd25d45d40a248a450dd09010c6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d9b0e05bdde7589dfa34655424b87c') in 0.007257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/FPS KIT 3D/Prefabs/Crate.prefab
+  artifactKey: Guid(f917444d89a9763489ac9ea7c284b0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Prefabs/Crate.prefab using Guid(f917444d89a9763489ac9ea7c284b0a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fa5dcc4c0ed41365aede918f1e5216') in 0.010970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/FPS KIT 3D/Materials/Portal.mat
+  artifactKey: Guid(2376d194bdc5cc54099734b08049484d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Materials/Portal.mat using Guid(2376d194bdc5cc54099734b08049484d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad787fda7cbe539cbef6f404bae2d686') in 0.337226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FPS KIT 3D/Materials/Brown.mat
+  artifactKey: Guid(f4674641c65d0ea46a6ba9d7e4a82aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Materials/Brown.mat using Guid(f4674641c65d0ea46a6ba9d7e4a82aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b5212387c5975730a12af7e497356e') in 0.007384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/FPS KIT 3D/Prefabs/Turret.prefab
+  artifactKey: Guid(bc48a69b8db87af42880e7d447c6a866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Prefabs/Turret.prefab using Guid(bc48a69b8db87af42880e7d447c6a866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b63251c1c78aebe83ec3fb57ee67d2') in 0.011124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/FPS KIT 3D/Models/FlyingRobot.fbx
+  artifactKey: Guid(6e9ca5124bd993341b137928e858eeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Models/FlyingRobot.fbx using Guid(6e9ca5124bd993341b137928e858eeee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6b805be5cc0173029c2ccb9cdb2cd3') in 0.018043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/FPS KIT 3D/Models/Rifle.fbx
+  artifactKey: Guid(ef9b3cae747909846b2e8fde25f16e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FPS KIT 3D/Models/Rifle.fbx using Guid(ef9b3cae747909846b2e8fde25f16e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3653883eebb8392e43ad5374a79c4aad') in 0.022740 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003610 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.034 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3037ms)
+		BeginReloadAssembly (400ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (40ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (2362ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (1673ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (1381ms)
+				ProcessInitializeOnLoadMethodAttributes (161ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2585 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (160.5 KB). Loaded Objects now: 3164.
+Memory consumption went from 262.5 MB to 262.4 MB.
+Total: 17.015416 ms (FindLiveObjects: 0.259000 ms CreateObjectMapping: 0.063833 ms MarkObjects: 16.271417 ms  DeleteObjects: 0.419083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001060 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.476 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3480ms)
+		BeginReloadAssembly (507ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (58ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (112ms)
+		EndReloadAssembly (2663ms)
+			LoadAssemblies (257ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (1862ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (1477ms)
+				ProcessInitializeOnLoadMethodAttributes (236ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2585 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (168.3 KB). Loaded Objects now: 3179.
+Memory consumption went from 262.8 MB to 262.6 MB.
+Total: 8.902417 ms (FindLiveObjects: 0.238208 ms CreateObjectMapping: 0.067667 ms MarkObjects: 8.383208 ms  DeleteObjects: 0.211542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002553 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.638 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4641ms)
+		BeginReloadAssembly (871ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (71ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (178ms)
+		EndReloadAssembly (3324ms)
+			LoadAssemblies (489ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (544ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (2267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (1853ms)
+				ProcessInitializeOnLoadMethodAttributes (208ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2585 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (160.4 KB). Loaded Objects now: 3194.
+Memory consumption went from 263.0 MB to 262.8 MB.
+Total: 4.616042 ms (FindLiveObjects: 0.252791 ms CreateObjectMapping: 0.064375 ms MarkObjects: 4.122917 ms  DeleteObjects: 0.174625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001107 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.633 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4636ms)
+		BeginReloadAssembly (934ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (80ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (137ms)
+		EndReloadAssembly (3342ms)
+			LoadAssemblies (821ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (373ms)
+			ReleaseScriptCaches (9ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (2128ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (1629ms)
+				ProcessInitializeOnLoadMethodAttributes (307ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2585 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (168.3 KB). Loaded Objects now: 3209.
+Memory consumption went from 263.3 MB to 263.1 MB.
+Total: 5.614708 ms (FindLiveObjects: 0.783458 ms CreateObjectMapping: 0.218083 ms MarkObjects: 4.423709 ms  DeleteObjects: 0.187583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

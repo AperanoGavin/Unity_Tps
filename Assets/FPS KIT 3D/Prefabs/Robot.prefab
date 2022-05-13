@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2692370311511358377
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3842774109548747404, guid: c6c530b6f33921244818447acfcec68f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2887624914045757446}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1722069124862256873}
+  - component: {fileID: 1027066297293209929}
+  - component: {fileID: 3860768358339014248}
+  m_Layer: 0
+  m_Name: FlyingRobot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1722069124862256873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 220429445686519967, guid: c6c530b6f33921244818447acfcec68f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2887624914045757446}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2692370311511358377}
+  m_LocalRotation: {x: -0.6104085, y: 0.058590926, z: -0.045350935, w: 0.7886139}
+  m_LocalPosition: {x: 0.16205978, y: 0.60739326, z: 0.13830948}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_Children: []
+  m_Father: {fileID: 3392811416633703997}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -106.77599, y: -149.204, z: 150.288}
+--- !u!33 &1027066297293209929
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 9102929156670313129, guid: c6c530b6f33921244818447acfcec68f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2887624914045757446}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2692370311511358377}
+  m_Mesh: {fileID: 7682338098397548711, guid: 6e9ca5124bd993341b137928e858eeee, type: 3}
+--- !u!23 &3860768358339014248
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 3272024274502331984, guid: c6c530b6f33921244818447acfcec68f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2887624914045757446}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2692370311511358377}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 2299e5a87cfc48f4c95cc81de32e0edf, type: 2}
+  - {fileID: 2100000, guid: dddb0f8cfbee99542adfe2ebd2c037d1, type: 2}
+  - {fileID: 2100000, guid: 86aae67b4b81a1a468cc37cbeba7dd74, type: 2}
+  - {fileID: 2100000, guid: 2299e5a87cfc48f4c95cc81de32e0edf, type: 2}
+  - {fileID: 2100000, guid: 390fd25d45d40a248a450dd09010c6de, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &9103660395809477393
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3392811416633703997}
+  m_Layer: 0
+  m_Name: Robot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3392811416633703997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9103660395809477393}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 45.42, y: 8.52, z: -45.257824}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1722069124862256873}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2887624914045757446
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3392811416633703997}
+    m_Modifications:
+    - target: {fileID: 3842774109548747404, guid: c6c530b6f33921244818447acfcec68f,
+        type: 3}
+      propertyPath: m_Name
+      value: FlyingRobot
+      objectReference: {fileID: 0}
+    - target: {fileID: 220429445686519967, guid: c6c530b6f33921244818447acfcec68f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.16205978
+      objectReference: {fileID: 0}
+    - target: {fileID: 220429445686519967, guid: c6c530b6f33921244818447acfcec68f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.60739326
+      objectReference: {fileID: 0}
+    - target: {fileID: 220429445686519967, guid: c6c530b6f33921244818447acfcec68f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.13830948
+      objectReference: {fileID: 0}
+    - target: {fileID: 220429445686519967, guid: c6c530b6f33921244818447acfcec68f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6104085
+      objectReference: {fileID: 0}
+    - target: {fileID: 220429445686519967, guid: c6c530b6f33921244818447acfcec68f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.058590926
+      objectReference: {fileID: 0}
+    - target: {fileID: 220429445686519967, guid: c6c530b6f33921244818447acfcec68f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.045350935
+      objectReference: {fileID: 0}
+    - target: {fileID: 220429445686519967, guid: c6c530b6f33921244818447acfcec68f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7886139
+      objectReference: {fileID: 0}
+    - target: {fileID: 220429445686519967, guid: c6c530b6f33921244818447acfcec68f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 220429445686519967, guid: c6c530b6f33921244818447acfcec68f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -106.77599
+      objectReference: {fileID: 0}
+    - target: {fileID: 220429445686519967, guid: c6c530b6f33921244818447acfcec68f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -149.204
+      objectReference: {fileID: 0}
+    - target: {fileID: 220429445686519967, guid: c6c530b6f33921244818447acfcec68f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 150.288
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c6c530b6f33921244818447acfcec68f, type: 3}
