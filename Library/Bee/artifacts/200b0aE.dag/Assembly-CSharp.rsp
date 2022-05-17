@@ -357,6 +357,8 @@
 "Assets/Dossier FPS final (1)/Scripts FPS/TurretCollision.cs"
 "Assets/Dossier FPS final (1)/Scripts FPS/TurretScript.cs"
 "Assets/Dossier FPS final (1)/Scripts FPS/TurretV2Collision.cs"
+"Assets/My project (3)/Assets/Heli1/controller.cs"
+"Assets/My project (3)/Assets/Standard Assets/Utility/SmoothFollow.cs"
 "Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs"
 "Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs"
 "Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs"

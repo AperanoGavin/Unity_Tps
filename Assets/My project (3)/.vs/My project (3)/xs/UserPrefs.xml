@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{27AB3609-15DB-52E3-4D4E-5A489B4C4689}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Heli1/controller.cs">
+    <Files>
+      <File FileName="Assets/Heli1/controller.cs" Line="50" Column="102" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="My project (3)" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Heli1" expanded="True">
+                <Node name="controller.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3151d7e6-c5d5-4e91-ac94-bd496e773785" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
